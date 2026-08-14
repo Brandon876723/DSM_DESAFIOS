@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Desafio1_DSM</string>
+    <string name="Bienvenido">Bienvenido/a</string>
+    <string name="Ejercicio1">Ejercicio1: Promedio del estudiante</string>
+    <string name="Ejercicio2">Ejercicio2: Descuentos al salario</string>
+    <string name="Ejercicio3">Ejercicio3: Calculadora básica</string>
 </resources>
