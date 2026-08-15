@@ -11,4 +11,7 @@
     <string name="Nota4">Nota 4:</string>
     <string name="Nota5">Nota 5:</string>
     <string name="calcularPromedio">Calcular promedio</string>
+    <string name="nombreEmpleado">Nombre del empleado</string>
+    <string name="salarioBase">Salario base</string>
+    <string name="calcularSalario">Carlcular salario</string>
 </resources>
