@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_global"
+    android:gravity="center"
+    android:background="@color/colorBackground">
+
+    <!--sera para poner el nombre del estudiante-->
+    <EditText
+        android:id="@+id/editNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nombreEstudiante"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="@dimen/marginButton" />
+
+    <!--Para las notas-->
+    <EditText
+        android:id="@+id/editNota1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Nota1"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="@dimen/marginButton" />
+
+    <EditText
+        android:id="@+id/editNota2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Nota2"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="@dimen/marginButton" />
+
+    <EditText
+        android:id="@+id/editNota3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Nota3"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="@dimen/marginButton" />
+
+    <EditText
+        android:id="@+id/editNota4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Nota4"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="@dimen/marginButton" />
+
+    <EditText
+        android:id="@+id/editNota5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Nota5"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="@dimen/marginButton" />
+
+    <!--Boton para calcular el promedio-->
+
+</LinearLayout>
