@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
+    android:background="@color/colorBackground"
     android:padding="@dimen/padding_global"> <!--en este llamamos al pading que definimos en
     la carpeta de dimens en recursos con ese nombre-->
 
@@ -17,6 +18,7 @@
         android:text="@string/Bienvenido"
         android:textSize="24sp"
         android:textStyle="italic"
+        android:background="@color/colorTextTitle"
         android:layout_marginBottom="32dp" />
 
     <!--Los botones que ocuparemos -->
@@ -26,6 +28,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/Ejercicio1"
+        android:background="#0D6F32"
         android:layout_marginBottom="16dp" />
     
     <!--btnEjercicio2-->
@@ -34,6 +37,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/Ejercicio2"
+        android:background="#681EA6"
         android:layout_marginBottom="16dp" />
 
     <!--btnEjercicio3-->
@@ -41,6 +45,7 @@
         android:id="@+id/btnEjercicio3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#0D6F32"
         android:text="@string/Ejercicio3" />
 
 </LinearLayout>
