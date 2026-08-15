@@ -2,4 +2,7 @@
 <resources>
     <!--para las pantallas-->
     <dimen name="padding_global">16dp</dimen>
+    <dimen name="marginButton">16dp</dimen>
+    <dimen name="textTitle">24sp</dimen>
+    <dimen name="txtSize">16sp</dimen>
 </resources>

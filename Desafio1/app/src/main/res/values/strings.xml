@@ -4,4 +4,11 @@
     <string name="Ejercicio1">Ejercicio1: Promedio del estudiante</string>
     <string name="Ejercicio2">Ejercicio2: Descuentos al salario</string>
     <string name="Ejercicio3">Ejercicio3: Calculadora básica</string>
+    <string name="nombreEstudiante">Nombre del estudiante:</string>
+    <string name="Nota1">Nota 1:</string>
+    <string name="Nota2">Nota 2:</string>
+    <string name="Nota3">Nota 3:</string>
+    <string name="Nota4">Nota 4:</string>
+    <string name="Nota5">Nota 5:</string>
+    <string name="calcularPromedio">Calcular promedio</string>
 </resources>

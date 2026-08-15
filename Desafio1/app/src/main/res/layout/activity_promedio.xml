@@ -14,6 +14,8 @@
         android:layout_height="wrap_content"
         android:hint="@string/nombreEstudiante"
         android:inputType="textPersonName"
+        android:textColorHint="@color/colorTextTitle"
+        android:textColor="@color/colorTextTitle"
         android:layout_marginBottom="@dimen/marginButton" />
 
     <!--Para las notas-->
@@ -23,6 +25,8 @@
         android:layout_height="wrap_content"
         android:hint="@string/Nota1"
         android:inputType="numberDecimal"
+        android:textColorHint="@color/colorTextTitle"
+        android:textColor="@color/colorTextTitle"
         android:layout_marginBottom="@dimen/marginButton" />
 
     <EditText
@@ -31,6 +35,8 @@
         android:layout_height="wrap_content"
         android:hint="@string/Nota2"
         android:inputType="numberDecimal"
+        android:textColorHint="@color/colorTextTitle"
+        android:textColor="@color/colorTextTitle"
         android:layout_marginBottom="@dimen/marginButton" />
 
     <EditText
@@ -39,6 +45,8 @@
         android:layout_height="wrap_content"
         android:hint="@string/Nota3"
         android:inputType="numberDecimal"
+        android:textColorHint="@color/colorTextTitle"
+        android:textColor="@color/colorTextTitle"
         android:layout_marginBottom="@dimen/marginButton" />
 
     <EditText
@@ -47,6 +55,8 @@
         android:layout_height="wrap_content"
         android:hint="@string/Nota4"
         android:inputType="numberDecimal"
+        android:textColorHint="@color/colorTextTitle"
+        android:textColor="@color/colorTextTitle"
         android:layout_marginBottom="@dimen/marginButton" />
 
     <EditText
@@ -55,8 +65,28 @@
         android:layout_height="wrap_content"
         android:hint="@string/Nota5"
         android:inputType="numberDecimal"
+        android:textColorHint="@color/colorTextTitle"
+        android:textColor="@color/colorTextTitle"
         android:layout_marginBottom="@dimen/marginButton" />
 
     <!--Boton para calcular el promedio-->
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calcularPromedio"
+        android:backgroundTint="@color/colorButtonPrimary"
+        android:textColorHint="@color/colorTextTitle"
+        android:textColor="@color/colorTextTitle"
+        android:layout_marginBottom="@dimen/marginButton" />
+
+    <!--Resultado del promedio-->
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="@dimen/txtSize"
+        android:textColor="@color/colorTextTitle" />
 
 </LinearLayout>
