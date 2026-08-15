@@ -14,4 +14,13 @@
     <string name="nombreEmpleado">Nombre del empleado</string>
     <string name="salarioBase">Salario base</string>
     <string name="calcularSalario">Carlcular salario</string>
+    <string name="errorSalario">Ingrese un salario valido</string>
+    <string name="resultadoSalario">
+                                    Empleado: %1$s
+                                    Salario bruto: %2$.2f
+                                    AFP: %3$.2f
+                                    ISSS: %4$.2f
+                                    Renta: %5$.2f
+                                    Salario neto: %6$.2f
+    </string>
 </resources>
