@@ -14,6 +14,7 @@
         android:hint="@string/Numero1"
         android:inputType="numberDecimal"
         android:textColorHint="@color/colorTextTitle"
+        android:textColor="@color/colorTextTitle"
         android:layout_marginBottom="@dimen/marginButton"/>
 
     <EditText
@@ -23,6 +24,7 @@
         android:hint="@string/Numero2"
         android:inputType="numberDecimal"
         android:textColorHint="@color/colorTextTitle"
+        android:textColor="@color/colorTextTitle"
         android:layout_marginBottom="@dimen/marginButton"/>
 
     <!--los botones como iconos -->
@@ -34,30 +36,30 @@
 
         <ImageButton
             android:id="@+id/btnSuma"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/iconSum"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/ic_suma"
             android:contentDescription="@string/Sum"/>
 
         <ImageButton
             android:id="@+id/btnResta"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/iconRes"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/ic_resta"
             android:contentDescription="@string/Res"/>
 
         <ImageButton
             android:id="@+id/btnMultiplicacion"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/iconMulti"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/ic_multi"
             android:contentDescription="@string/Multi"/>
 
         <ImageButton
             android:id="@+id/btnDivision"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/iconDiv"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/ic_div"
             android:contentDescription="@string/Div"/>
     </LinearLayout>
 
@@ -69,16 +71,16 @@
 
         <ImageButton
             android:id="@+id/btnExponente"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/iconExpo"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/ic_expo"
             android:contentDescription="@string/Expo"/>
 
         <ImageButton
             android:id="@+id/btnRaiz"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/iconRaiz"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/ic_raiz"
             android:contentDescription="@string/Raiz"/>
     </LinearLayout>
     <TextView
@@ -88,4 +90,11 @@
         android:text=""
         android:textSize="@dimen/textTitle"
         android:textColor="@color/colorTextTitle"/>
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volver al menú"
+        android:layout_marginTop="16dp"/>
 </LinearLayout>

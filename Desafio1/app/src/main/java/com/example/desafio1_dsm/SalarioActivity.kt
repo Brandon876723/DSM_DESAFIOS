@@ -9,6 +9,7 @@ import android.content.Context
 import android.os.Vibrator
 import android.os.Build
 import android.os.VibrationEffect
+import android.content.Intent
 
 class SalarioActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -48,6 +49,14 @@ class SalarioActivity : AppCompatActivity() {
                 renta,
                 salarioNeto
             )
+        }
+
+        //boton para regresar
+        val btnVolver = findViewById<Button>(R.id.btnVolver)
+        btnVolver.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+            finish()
         }
     }
     //la tabla en tramos iria asi

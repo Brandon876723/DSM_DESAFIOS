@@ -23,4 +23,14 @@
                                     Renta: %5$.2f
                                     Salario neto: %6$.2f
     </string>
+    <string name="Numero1">Numero 1</string>
+    <string name="Numero2">Numero 2</string>
+    <string name="Sum">Suma</string>
+    <string name="Res">Resta</string>
+    <string name="Multi">Multiplicación</string>
+    <string name="Div">División</string>
+    <string name="Expo">Exponente</string>
+    <string name="Raiz">Raíz cuadrada</string>
+    <string name="errorDivision">No se puede dividir entre cero</string>
+    <string name="resultadoCalc">Resultado: %1$.2f</string>
 </resources>

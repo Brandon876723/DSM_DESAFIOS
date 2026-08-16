@@ -1,5 +1,6 @@
 package com.example.desafio1_dsm
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -66,6 +67,14 @@ class PromedioActivity : AppCompatActivity(){
             //Mostrar resultado de el promedio
             //mostrara la nota con 2 decimales
             txtResultado.text = "El promedio del estudiante ${editNombre.text } es %.2f → ${estado}".format(promedio)
+        }
+
+        //boton para regresar
+        val btnVolver = findViewById<Button>(R.id.btnVolver)
+        btnVolver.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+            finish()
         }
     }
     //la funcion de calcular promedio para que este separado
