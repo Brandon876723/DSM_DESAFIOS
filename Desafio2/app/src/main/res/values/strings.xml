@@ -23,4 +23,14 @@
     <string name="error_descripcion_corta">La descripción debe tener al menos 20 caracteres</string>
     <string name="error_imagen_faltante">Debes seleccionar una imagen</string>
     <string name="destino_guardado">Destino guardado correctamente</string>
+
+    <!--paises que habra-->
+    <string-array name="paises_array">
+        <item>El Salvador</item>
+        <item>México</item>
+        <item>Guatemala</item>
+        <item>Honduras</item>
+        <item>Japón</item>
+        <item>España</item>
+    </string-array>
 </resources>
