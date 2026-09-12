@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Agencia_viajes</string>
+
+    <!--strings de el login-->
+    <string name="hint_email">Correo electrónico</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="btn_login">Iniciar sesión</string>
+    <string name="btn_register">Registrar</string>
+    <string name="error_empty_fields">Campos vacíos</string>
+    <string name="login_success">Login exitoso</string>
+    <string name="register_success">Usuario registrado</string>
+    <string name="error_generic">Error</string>
 </resources>
