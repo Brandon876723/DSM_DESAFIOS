@@ -10,4 +10,17 @@
     <string name="login_success">Login exitoso</string>
     <string name="register_success">Usuario registrado</string>
     <string name="error_generic">Error</string>
+
+    <!-- Registro de Destinos -->
+    <string name="hint_nombre_destino">Nombre del destino</string>
+    <string name="hint_precio">Precio del paquete</string>
+    <string name="hint_descripcion">Descripción del viaje</string>
+    <string name="btn_seleccionar_imagen">Seleccionar imagen</string>
+    <string name="btn_guardar_destino">Guardar destino</string>
+
+    <!-- Validaciones -->
+    <string name="error_precio_invalido">El precio debe ser mayor a 0</string>
+    <string name="error_descripcion_corta">La descripción debe tener al menos 20 caracteres</string>
+    <string name="error_imagen_faltante">Debes seleccionar una imagen</string>
+    <string name="destino_guardado">Destino guardado correctamente</string>
 </resources>
