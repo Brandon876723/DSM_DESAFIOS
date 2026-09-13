@@ -7,7 +7,6 @@ import android.widget.EditText
 import android.widget.Button
 import android.widget.Toast
 import android.content.Intent
-import kotlin.jvm.java
 
 class MainActivity : AppCompatActivity() {
 
@@ -40,7 +39,6 @@ class MainActivity : AppCompatActivity() {
                     .addOnCompleteListener { task ->
                         if (task.isSuccessful) {
                             Toast.makeText(this, "Login exitoso", Toast.LENGTH_SHORT).show()
-                            // Aquí mandamos al registro destino
                             startActivity(Intent(this, RegistroDestino::class.java))
                             finish()
                         } else {
@@ -62,7 +60,6 @@ class MainActivity : AppCompatActivity() {
                     .addOnCompleteListener { task ->
                         if (task.isSuccessful) {
                             Toast.makeText(this, "Usuario registrado", Toast.LENGTH_SHORT).show()
-                            // Aquí mandamos al registro destino
                             startActivity(Intent(this, RegistroDestino::class.java))
                             finish()
                         } else {
